@@ -54,12 +54,12 @@ TYPEORM_ENTITIES = src/**/*.entity{.ts,.js}
 
 
 ## Endpoints: 
-######Server running on http://localhost:3000 <br> <br>
+###### Server running on http://localhost:3000 <br> <br>
 
-######Profile endpoint: `Get: ` ``/profile`` <br>
+###### Profile endpoint: `Get: ` ``/profile`` <br>
 ``` Requires Bearer Token Authentication Header```
 
-######Register user endpoint: `Post:` ``/auth/register``
+###### Register user endpoint: `Post:` ``/auth/register``
 ```
 Content of post request
 { 
@@ -68,7 +68,7 @@ Content of post request
 }
 ```
 
-######Log In user endpoint: `Post:` ``/auth/login``
+###### Log In user endpoint: `Post:` ``/auth/login``
 ```
 Content of post request
 { 
